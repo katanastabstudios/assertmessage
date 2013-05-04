@@ -1,0 +1,24 @@
+{
+  "name": "assertmessage",
+  "version": "0.0.1",
+  "description": "A better assert message for node",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "./node_modules/.bin/jshint .",
+    "test": "mocha test.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/katanastabstudios/assertmessage.git"
+  },
+  "keywords": [
+    "assert",
+    "node"
+  ],
+  "author": "Katana Stab Studios",
+  "license": "BSD",
+  "devDependencies": {
+    "mocha": "~1.9.0",
+    "jshint": "~1.1.0"
+  }
+}
