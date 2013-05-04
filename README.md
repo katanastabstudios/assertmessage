@@ -1,6 +1,8 @@
 # assertmessage
 
-Improves the output for assert failure messages.
+Improves the output for assert failure messages.  The normal assert message
+includes either the message, or the actual/expected comparison.  This package
+ will output both to give test runners more context for test failures.
 
 Require this library as you would normally require assert and carry on.
 
